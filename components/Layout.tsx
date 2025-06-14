@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <div style={{ fontFamily: "sans-serif", maxWidth: 800, margin: "0 auto", padding: 24 }}>
+    <div style={{ fontFamily: "sans-serif", maxWidth: 800, margin: "0 auto", padding: 24, paddingLeft: 80 }}>
       <header>
         <h1>我的个人主页</h1>
         <nav>
