@@ -1,2 +1,37 @@
 title: Shiwei Shang's Blog
-theme: jekyll-theme-cayman
+description: 个人学习笔记与博客
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "air"
+locale: "zh-CN"
+url: "https://ShiweiShang.github.io"
+repository: "ShiweiShang/ShiweiShang.github.io"
+
+# 仅保留必要配置即可，详细定制可查官方文档
+author:
+  name: "ShiweiShang"
+  avatar: "/assets/images/avatar.png"
+  bio: "专注于网络技术与编程学习。"
+
+# 插件（部署在 GitHub Pages 时需如下设置）
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 是否显示导航栏
+header_pages:
+  - about.md
+
+# 菜单栏（可选）
+# navigation:
+#   - title: "首页"
+#     url: "/"
+#   - title: "所有文章"
+#     url: "/posts/"
+#   - title: "关于"
+#     url: "/about/"
+
+# 侧边栏设置
+sidebar:
+  nav: "docs"
+  # 可自定义更多内容
