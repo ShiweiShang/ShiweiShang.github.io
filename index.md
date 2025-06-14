@@ -1,11 +1,15 @@
 ---
 layout: home
-author_profile: true
+title: 博客
 ---
 
-欢迎来到我的个人博客！  
-这里记录我的学习、思考和成长。
+# 博客文章目录
 
-{% include feature_row id="intro" type="center" %}
-
----
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span style="color: #888;">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </li>
+  {% endfor %}
+</ul>

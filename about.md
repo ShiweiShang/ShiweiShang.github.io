@@ -1,12 +1,13 @@
 ---
-layout: single
-title: "关于"
-permalink: /about/
-author_profile: true
+layout: page
+title: 关于我
+permalink: /about.html
 ---
 
-你好！我是 Shiwei Shang。
+# 你好，我是 Shiwei Shang
 
-- 热爱技术、英语与分享。
-- 这里是我的知识笔记、成长记录。
-- 欢迎交流与指正！
+- 技术文档写作员
+- 英语写作、DITA
+- 跑步
+
+欢迎来到我的个人主页！
