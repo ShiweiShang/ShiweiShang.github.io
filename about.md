@@ -4,7 +4,7 @@ title: 关于我
 permalink: /about.html
 ---
 
-# 你好，我是 Shiwei Shang
+你好，我是 Shiwei Shang
 
 - 技术文档写作员
 - 英语写作、DITA
