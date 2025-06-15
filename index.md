@@ -1,6 +1,5 @@
 ---
 layout: home
-title: 文章目录
 ---
 <ul>
   {% for post in site.posts %}
