@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         maxWidth: 800,
         margin: "0 auto",
         padding: 24,
-        paddingLeft: 120, // 整体右移，原本是80
+        paddingLeft: 120, // 增大左边空白
       }}
     >
       <header>
@@ -20,7 +20,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <hr />
       </header>
       <main style={{ paddingLeft: 40 }}>{children}</main>
-      {/* main 增加 paddingLeft，让内容进一步右移 */}
+      {/* main 区域也右移，内容更居中 */}
       <footer style={{ marginTop: 40, textAlign: "center", color: "#888" }}>
         © {new Date().getFullYear()} ShiweiShang
       </footer>
