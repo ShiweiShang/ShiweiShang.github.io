@@ -1,10 +1,7 @@
 ---
 layout: home
-title: 博客
+title: 文章目录
 ---
-
-# 博客文章目录
-
 <ul>
   {% for post in site.posts %}
     <li>
