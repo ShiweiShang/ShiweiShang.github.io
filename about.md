@@ -1,6 +1,5 @@
 ---
 layout: page
-title: 自我介绍
 permalink: /about.html
 ---
 
